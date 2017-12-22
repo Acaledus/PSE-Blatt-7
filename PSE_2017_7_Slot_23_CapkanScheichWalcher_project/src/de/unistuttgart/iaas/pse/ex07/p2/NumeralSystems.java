@@ -212,7 +212,7 @@ public class NumeralSystems {
 										} else if (ziel == 10) {
 											System.out.println("Die Hexadezimalzahl " + hexZahl + " ist " + hexToDez(hexZahl) + " im Dezimalsystem.");
 										} else if (ziel == 16) {
-											System.out.println("Die Hexadezimalzahl " + hexZahl + " ist " + hexZahl + " im Hexadezimalsystem.");
+											System.out.println("Die Hexadezimalzahl " + hexZahl + " ist " + dezToHex(hexToDez(hexZahl)) + " im Hexadezimalsystem.");
 										} 
 										System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
 									} catch (InputMismatchException q) {
